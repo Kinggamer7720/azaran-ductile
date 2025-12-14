@@ -1,0 +1,9 @@
+{
+  "app": "azarantak",
+  "platform": "python",
+  "port": 8000,
+  "build": {
+    "location": "iran"
+  },
+  "startCommand": "python -m uvicorn main:app --host 0.0.0.0 --port 8000"
+}
